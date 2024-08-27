@@ -15,7 +15,7 @@ D:/Unity/Project/King of the Forest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61699
+56800
 Successfully changed project path to: D:/Unity/Project/King of the Forest
 D:/Unity/Project/King of the Forest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,18 +49,18 @@ D:/Unity/Project/King of the Forest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15948]  Target information:
+Player connection [8236]  Target information:
 
-Player connection [15948]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 587938662 [EditorId] 587938662 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8236]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3557297074 [EditorId] 3557297074 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15948]  * "[IP] 192.168.27.2 [Port] 0 [Flags] 2 [Guid] 587938662 [EditorId] 587938662 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8236]  * "[IP] 192.168.27.2 [Port] 0 [Flags] 2 [Guid] 3557297074 [EditorId] 3557297074 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15948]  * "[IP] 192.168.1.126 [Port] 0 [Flags] 2 [Guid] 587938662 [EditorId] 587938662 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8236]  * "[IP] 192.168.1.126 [Port] 0 [Flags] 2 [Guid] 3557297074 [EditorId] 3557297074 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5PQ9J8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15948] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8236] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8236] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
 [Subsystems] Discovering subsystems at path D:/Program/Unity/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = 'D:/Program/Unity/2022.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program/Unity/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program/Unity/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program/Unity/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003580 seconds.
-- Loaded All Assemblies, in  0.528 seconds
+Registered in 0.002852 seconds.
+- Loaded All Assemblies, in  0.400 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.346 seconds
-Domain Reload Profiling: 875ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.352 seconds
+Domain Reload Profiling: 754ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (192ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (136ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (347ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (354ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (291ms)
+		SetupLoadedEditorAssemblies (293ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,54 +122,54 @@ Domain Reload Profiling: 875ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.687 seconds
+- Loaded All Assemblies, in  0.762 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.618 seconds
-Domain Reload Profiling: 1305ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1416ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (424ms)
-		LoadAssemblies (325ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (368ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (619ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (655ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (483ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.7 KB). Loaded Objects now: 3572.
-Memory consumption went from 127.8 MB to 127.7 MB.
-Total: 3.151600 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.644500 ms  DeleteObjects: 0.119300 ms)
+Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.5 KB). Loaded Objects now: 3630.
+Memory consumption went from 134.5 MB to 134.5 MB.
+Total: 4.711000 ms (FindLiveObjects: 0.417500 ms CreateObjectMapping: 0.223300 ms MarkObjects: 3.930500 ms  DeleteObjects: 0.137400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,230 +186,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 185735.519777 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Log2(Long).fbx
-  artifactKey: Guid(620af578a92944b46b771f883fad4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Log2(Long).fbx using Guid(620af578a92944b46b771f883fad4e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+  Time since last request: 616733.498204 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7043cef9bcbeedd7fa350590ca8a7f88') in 0.187108 seconds
+ -> (artifact id: 'e7c7464e50160f5c10a448f451038991') in 0.176513 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/tree1.fbx
-  artifactKey: Guid(39e7322a0f79618489552ceb5a6f33b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/tree1.fbx using Guid(39e7322a0f79618489552ceb5a6f33b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f419cc74be8fc60600212a3f3daba959') in 0.084272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/dandelion.fbx
-  artifactKey: Guid(918d10694fb21de459f8a7ca4696fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/dandelion.fbx using Guid(918d10694fb21de459f8a7ca4696fbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7a0226fcbfa44d10a0b35e7d6dba8dd7') in 0.065695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/lucious tree.fbx
-  artifactKey: Guid(9d6bb61d136628e47ad55374edc6c922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/lucious tree.fbx using Guid(9d6bb61d136628e47ad55374edc6c922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd80f513aa989007c90d82554c80b3623') in 0.117042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.699492 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/grass.fbx
-  artifactKey: Guid(f8641ee86707dec4a9f95f7e5e1d8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/grass.fbx using Guid(f8641ee86707dec4a9f95f7e5e1d8b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a242c243e64565093f3498bfb4cf99b') in 0.041553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Bush(Large).fbx
-  artifactKey: Guid(185dd4167bc768a4483c6f7c45ec9397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Bush(Large).fbx using Guid(185dd4167bc768a4483c6f7c45ec9397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '528b3937736444b8f1e13f5a9fb5d2e0') in 0.057766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Bush(Small).fbx
-  artifactKey: Guid(88bfd2b1969455443a670a1896aedbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Bush(Small).fbx using Guid(88bfd2b1969455443a670a1896aedbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ed2757b46da2d967a5b5eb2d03c5a0a') in 0.055886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Log(Long).fbx
-  artifactKey: Guid(36def5dd9cd5ee344b48d25d43958627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Meshes/Log(Long).fbx using Guid(36def5dd9cd5ee344b48d25d43958627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '07d22877edf92ff9cf8e49aaf758523b') in 0.043670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 20.605179 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Bush.mat
-  artifactKey: Guid(0ed04ddd9e9521a4ba65785c06cb3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Bush.mat using Guid(0ed04ddd9e9521a4ba65785c06cb3ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '93e609d773585baa0919e49ea155a421') in 0.018408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Log.mat
-  artifactKey: Guid(699ae9f4eb5e4d84181a3ba0b3253751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Log.mat using Guid(699ae9f4eb5e4d84181a3ba0b3253751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '49c7c2f258884edc37ece912ccc3bd91') in 0.010190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/mushroom.mat
-  artifactKey: Guid(be7c0af6da4e96240a298dc935c8df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/mushroom.mat using Guid(be7c0af6da4e96240a298dc935c8df4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '10a9a596067cd763725a35d4f42b223b') in 0.021676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/trunk.mat
-  artifactKey: Guid(f72fb64a5be845744a23857bc064c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/trunk.mat using Guid(f72fb64a5be845744a23857bc064c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ece75bada848dd15514583b3a35d5ab3') in 0.021552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/grass.mat
-  artifactKey: Guid(cda80e6e01f471d44be8847436781b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/grass.mat using Guid(cda80e6e01f471d44be8847436781b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7f07ef055bfe30fa838a5f2617bee9b2') in 0.009819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/dandelionleaves.mat
-  artifactKey: Guid(3d3ca2aaf075e7b4a8cab81211132934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/dandelionleaves.mat using Guid(3d3ca2aaf075e7b4a8cab81211132934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '99803c91c743bb006948bb6390138aaf') in 0.030169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/mapletrunk.mat
-  artifactKey: Guid(29d197a04d141da4bb27a184b2772a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/mapletrunk.mat using Guid(29d197a04d141da4bb27a184b2772a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f81687494fb057f233e3c0dd2b8e3e20') in 0.022908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Log2.mat
-  artifactKey: Guid(64c982a3675cad5448276b079016805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/Log2.mat using Guid(64c982a3675cad5448276b079016805b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c3eb65d909b69a782015f1c670b629ab') in 0.022455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/BushLeaf.mat
-  artifactKey: Guid(4444635648068124c88b71cf4f312f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/materials/BushLeaf.mat using Guid(4444635648068124c88b71cf4f312f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2f6db69f1a5d7fb9fd39a2544750e1f2') in 0.027761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 13.364518 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/dandelion.prefab
-  artifactKey: Guid(8b886c699e17e914986393007192fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/dandelion.prefab using Guid(8b886c699e17e914986393007192fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'eaae34242d1341181479d12ca57167f5') in 0.040746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/maple1.prefab
-  artifactKey: Guid(19e255b40b9fe434b88eccbdabddbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/maple1.prefab using Guid(19e255b40b9fe434b88eccbdabddbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fb8f4c6f14023f012a4c2b01b27791fc') in 0.071123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/mushroom.prefab
-  artifactKey: Guid(882d1d38fa89fbf43bc669bd4794be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AltonGames/3DNatureAssetsPack(Lite)/Prefabs/Foliage/mushroom.prefab using Guid(882d1d38fa89fbf43bc669bd4794be7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '842c19475b82811bf1683813e4d30bc4') in 0.026285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 6
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
