@@ -12,12 +12,15 @@ public class Player : MonoBehaviour
 
     float horizontalInput;
     float verticalInput;
-    Rigidbody rigidbodyComponent;
+    public int moneyCount;
+    float MouseX;
+    float MoveSpeed = 0.05f;
+
     bool jumpKeyWasPressed;
+
+   public GameObject moneyCountText;
     Transform Hero_Tr;
-    float Hero_speed = 0.03f;
-    int moneyCount;
-    GameObject moneyCountText;
+    Rigidbody rigidbodyComponent;
 
 
     // Start is called before the first frame update
@@ -27,22 +30,28 @@ public class Player : MonoBehaviour
         Hero_Tr = GetComponent<Transform>();
 
         moneyCountText = GameObject.Find("MoneyCountText");
+        moneyCount = 0;
+        moneyCountText.GetComponent<TextMeshProUGUI>().text = "Монет: " + moneyCount.ToString();
+
+
         
-            moneyCount = 0;
-            moneyCountText.GetComponent<TextMeshProUGUI>().text = "Монет: " + moneyCount.ToString();
-        //moneyCountText.GetComponent<Text>().text = "Монет: " + moneyCount.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
+        
+
+        //horizontalInput = Input.GetAxis("Horizontal");
+        //verticalInput = Input.GetAxis("Vertical");
+        MouseX = Input.GetAxis("Mouse X");
+
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumpKeyWasPressed = true;
         }
+        MovePlayer();
 
         if (Input.GetMouseButton(0)) //0 - ЛКМ, 1-ПКМ, 2 - колёсеко
         {
@@ -63,7 +72,9 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbodyComponent.velocity = new Vector3(horizontalInput * 2, rigidbodyComponent.velocity.y, verticalInput * 2);
+        //rigidbodyComponent.velocity = new Vector3(horizontalInput * 2, rigidbodyComponent.velocity.y, verticalInput * 2);
+        
+        Hero_Tr.Rotate(0, MouseX, 0);
 
         if (Physics.OverlapSphere(graundCheckTransform.position, 0.1f, playerMask).Length == 0)
         {
@@ -85,6 +96,26 @@ public class Player : MonoBehaviour
             moneyCountText.GetComponent<TextMeshProUGUI>().text = "Монет: " + moneyCount.ToString();
             Destroy(collision.gameObject);
 
+        }
+    }
+
+    private void MovePlayer()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            Hero_Tr.Translate(0, 0, MoveSpeed);
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            Hero_Tr.Translate(0, 0, -MoveSpeed);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            Hero_Tr.Translate(MoveSpeed, 0, 0);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            Hero_Tr.Translate(-MoveSpeed, 0, 0);
         }
     }
 
