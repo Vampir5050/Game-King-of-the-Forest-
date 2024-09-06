@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
    public GameObject moneyCountText;
     Transform Hero_Tr;
     Rigidbody rigidbodyComponent;
+    public AudioSource CoinSource;
 
 
     // Start is called before the first frame update
@@ -94,6 +95,7 @@ public class Player : MonoBehaviour
         {
             moneyCount++;
             moneyCountText.GetComponent<TextMeshProUGUI>().text = "Монет: " + moneyCount.ToString();
+            CoinSource.Play();
             Destroy(collision.gameObject);
 
         }
